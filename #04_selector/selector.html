@@ -3,18 +3,21 @@
   <head>
     <title>CSS Selector</title>
     <style>
+      .container {
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 10px;
+      }
       h1 {
         color: #123;
       }
       ul li a {
-        color: white;
+        color: orange;
         text-decoration: none;
-        background-color: orange;
       }
       ol li a {
-        color: white;
+        color: green;
         text-decoration: none;
-        background-color: greenyellow;
       }
       a {
         text-decoration: none;
@@ -36,29 +39,31 @@
     </style>
   </head>
   <body>
-    <h1>Hallo Dunia</h1>
-    <ul>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-      <li><a href="#">Link 4</a></li>
-      <li><a href="#">Link 5</a></li>
-    </ul>
-    <ol>
-      <li><a href="#">Link 6</a></li>
-      <li><a href="#">Link 7</a></li>
-      <li><a href="#">Link 8</a></li>
-      <li><a href="#">Link 9</a></li>
-      <li><a href="#">Link 10</a></li>
-    </ol>
-    <a href="https://github.com/modulkomputer"
-      >ini adalah link github untuk kodenya.</a
-    >
-    <p class="p1">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, est.
-    </p>
-    <p class="p2">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius.
-    </p>
+    <div class="container">
+      <h1>Hallo Dunia</h1>
+      <ul>
+        <li><a href="#">Link Nomer 1</a></li>
+        <li><a href="#">Link Nomer 2</a></li>
+        <li><a href="#">Link Nomer 3</a></li>
+        <li><a href="#">Link Nomer 4</a></li>
+        <li><a href="#">Link Nomer 5</a></li>
+      </ul>
+      <ol>
+        <li><a href="#">Link Nomer 6</a></li>
+        <li><a href="#">Link Nomer 7</a></li>
+        <li><a href="#">Link Nomer 8</a></li>
+        <li><a href="#">Link Nomer 9</a></li>
+        <li><a href="#">Link Nomer 10</a></li>
+      </ol>
+      <a href="https://github.com/modulkomputer"
+        >ini adalah link github untuk kodenya.</a
+      >
+      <p class="p1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, est.
+      </p>
+      <p class="p2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius.
+      </p>
+    </div>
   </body>
 </html>
