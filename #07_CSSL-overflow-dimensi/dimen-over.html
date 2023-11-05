@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Layouting - Dimensi & Overflow</title>
+    <style>
+      .container {
+        width: 600px;
+        margin: auto;
+        padding: 10px;
+        border: 1px dashed black;
+      }
+      .content {
+        color: white;
+        padding: 10px;
+        margin: auto;
+        width: 500px;
+        height: 200px;
+        overflow: scroll;
+        background-color: salmon;
+      }
+      .content h2 {
+        color: #eae;
+      }
+      .content strong {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Hello Dunia!</h2>
+        <p>
+          <strong>Dimensi</strong>
+          memiliki dua properti yauitu width & height: px, % mm, pc, pt
+        </p>
+        <p>
+          <strong>Overflow</strong>
+          memiliki empat properti: <b>pisible, auto, hidden, scroll</b>, jika
+          suatu element tidak di atur overflonya maka akan visible, jika
+          overflonya auto maka ketika konten keluar dar parrent nya akan di
+          buatkan scroll, tetapi jika konten cukup dari ukuran dimensinya scroll
+          tidak akan di buatkan, jika overflonya valuenya auto maka konten akan
+          dibuatkan scroll
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
+          eaque ex quisquam doloremque sapiente aspernatur provident minus
+          consequatur at perspiciatis distinctio rem nam laborum ducimus
+          facilis, iure incidunt veniam odio?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
