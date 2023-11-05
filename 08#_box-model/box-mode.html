@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Layouting Box-Model</title>
+    <style>
+      .container {
+        padding: 20px;
+        margin: auto;
+        width: 600px;
+        border: 1px dashed black;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .div {
+        margin-right: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .satu {
+        width: 100px;
+        height: 100px;
+        background-color: salmon;
+      }
+      .dua {
+        width: 100px;
+        height: 100px;
+        background-color: violet;
+      }
+      .tiga {
+        width: 100px;
+        height: 100px;
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="satu div">a</div>
+      <div class="dua div">b</div>
+      <div class="tiga div">c</div>
+    </div>
+  </body>
+</html>
