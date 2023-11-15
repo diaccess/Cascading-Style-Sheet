@@ -4,29 +4,59 @@
     <title>CSS Layouting Kelas Online</title>
     <style>
       body {
-        .satu {
-          background-color: violet;
-          width: 50px;
-          height: 50px;
-        }
-        .dua {
-          background-color: greenyellow;
-          width: 50px;
-          height: 50px;
-          left: 50px;
-          position: relative;
-        }
-        .tiga {
-          background-color: lightblue;
-          width: 50px;
-          height: 50px;
-        }
+        height: 1000px;
+      }
+      .container {
+        width: 600px;
+        border: 1px solid black;
+        margin: 50px auto;
+      }
+      .satu {
+        background-color: violet;
+        width: 50px;
+        height: 50px;
+      }
+      .dua {
+        background-color: greenyellow;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+      }
+      .tiga {
+        background-color: lightblue;
+        width: 50px;
+        height: 50px;
+      }
+      .iklan {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.6);
+        top: 100px;
+        right: 100px;
+        bottom: 100px;
+        left: 100px;
+      }
+      .close {
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 2px solid black;
+        text-align: center;
+        line-height: 30px;
       }
     </style>
   </head>
   <body>
-    <div class="satu"></div>
-    <div class="dua"></div>
-    <div class="tiga"></div>
+    <div class="container">
+      <div class="satu"></div>
+      <div class="dua"></div>
+      <div class="tiga"></div>
+    </div>
+
+    <div class="iklan">
+      <div class="close">X</div>
+    </div>
   </body>
 </html>
