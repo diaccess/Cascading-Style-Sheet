@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 2000px;
+}
+.iklan {
+  padding: 10px;
+  background-color: aqua;
+  color: rgb(101, 99, 99);
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+}
+.close {
+  position: absolute;
+  top: 9px;
+  right: 30px;
+  border-radius: 50%;
+  color: rgb(101, 99, 99);
+  font-weight: bold;
+  width: 20px;
+  font-size: 10pt;
+  line-height: 19px;
+  text-align: center;
+  height: 20px;
+}
+header {
+  background-color: rgb(12, 116, 81);
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: fixed;
+  margin-top: 38px;
+  width: 100%;
+}
+header .judul {
+  margin-left: 150px;
+  margin-top: 4px;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  margin-right: 150px;
+  margin-top: 15px;
+}
+header li {
+  margin-left: 30px;
+}
+
+header li a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+header .btn {
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin-top: -10px;
+  border: none;
+  color: rgb(12, 116, 81);
+  font-weight: bold;
+}
