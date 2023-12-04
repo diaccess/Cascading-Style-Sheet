@@ -66,16 +66,21 @@
   color: black;
 }
 .container-kontent {
+  height: 700px;
   margin: 0 auto;
-  width: 80%;
   overflow: hidden;
-  border: 1px solid red;
+  display: flex;
 }
 .kanan h1 {
-  margin-top: -100px;
+  position: absolute;
+  left: 100px;
+  top: 40px;
 }
 .kanan img {
-  float: right;
+  position: absolute;
+  right: 150px;
+  margin-top: 30px;
+  border-radius: 20px;
   width: 300px;
   height: 300px;
 }
