@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS PSEUDO Class</title>
+    <style>
+      .container {
+        margin: 0 auto;
+        border: 1px dashed black;
+        width: 600px;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        color: #123;
+        text-decoration: underline;
+      }
+      ul li a {
+        text-decoration: none;
+      }
+      ul li a:active {
+        color: yellow;
+      }
+      li:nth-child(2n-1) a {
+        color: red;
+      }
+      p:last-of-type {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello Dunia!</h1>
+      <ul>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+        <li><a href="#">link 4</a></li>
+        <li><a href="#">link 5</a></li>
+        <li><a href="#">link 6</a></li>
+        <li><a href="#">link 7</a></li>
+        <li><a href="#">link 8</a></li>
+        <li><a href="#">link 9</a></li>
+        <li><a href="#">link 10</a></li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi
+        tenetur dolore officia quasi necessitatibus totam deleniti aperiam, et
+        quisquam.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi
+        tenetur dolore officia quasi necessitatibus totam deleniti aperiam, et
+        quisquam.
+      </p>
+    </div>
+  </body>
+</html>
